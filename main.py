@@ -1,4 +1,5 @@
 #Stack (LIFO)
+#deque - doubled ended queue
 
 from collections import deque
 
