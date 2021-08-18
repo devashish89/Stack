@@ -1,7 +1,8 @@
-#Stack (LIFO)
-#deque - doubled ended queue
+# Stack (LIFO)
+# deque - doubled ended queue
 
 from collections import deque
+
 
 class Stack:
     def __init__(self):
@@ -29,6 +30,7 @@ class Stack:
         for item in self.container:
             print(item)
 
+
 s = Stack()
 s.push("www.cnn.com")
 s.push("www.cnn.com/world")
@@ -38,6 +40,3 @@ print("last element in stack using peek():", s.peek())
 s.pop()
 s.print_stack()
 print("size:", s.size())
-
-
-
